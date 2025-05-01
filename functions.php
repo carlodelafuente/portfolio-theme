@@ -22,4 +22,8 @@ function portfolio_enqueues() {
 }
 add_action('wp_enqueue_scripts', 'portfolio_enqueues');
 
+
+
+
+
 require get_template_directory() . '/inc/post-types-taxonomies.php';

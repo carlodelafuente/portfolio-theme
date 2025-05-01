@@ -79,6 +79,16 @@
 					"slug": "system-font"
 				},
 				{
+					"fontFamily": "'Space Grotesk', sans-serif",
+					"name": "Space Grotesk",
+					"slug": "space-grotesk"
+				},
+				{
+					"fontFamily": "'JetBrains Mono', monospace",
+					"name": "JetBrains Mono",
+					"slug": "jetbrains-mono"
+				},
+				{
 					"fontFamily": "'Merriweather', serif",
 					"name": "Merriweather",
 					"slug": "merriweather"
