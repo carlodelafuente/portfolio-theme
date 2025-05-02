@@ -58,12 +58,6 @@
 			]
 		},
 		"spacing": {
-			"spacingScale": {
-				"theme": {
-					"mediumStep": 1.5,
-					"steps": 8
-				}
-			},
 			"spacingSizes": [],
 			"units": [
 				"%",
