@@ -19,6 +19,8 @@ html {
     scroll-behavior: smooth;
 }
 
+
+
 .scroll-top {
     position: fixed;
     bottom: 2rem;
@@ -92,3 +94,18 @@ html {
     transition: transform 0.4s ease;
 }
 
+@media (max-width: 37.5rem) {
+    body {
+        background-color: black;
+        padding-left: .5rem;
+        padding-right: .5rem;
+    }
+
+    .wp-block-navigation__submenu-container {
+        width: 90%;
+        margin: 0 auto;
+        max-width: 300px;
+        padding: 1rem;
+        border-radius: 0.75rem;
+    }
+}
