@@ -11,7 +11,7 @@ function portfolio_enqueues() {
 	);
 
     wp_enqueue_style( 
-        'school-normalize', 
+        'portfolio-normalize', 
         'https://unpkg.com/@csstools/normalize.css', 
         array(), 
         '12.1.0'
@@ -21,6 +21,18 @@ function portfolio_enqueues() {
 
 }
 add_action('wp_enqueue_scripts', 'portfolio_enqueues');
+
+function enqueue_scroll_to_top_script() {
+    wp_enqueue_script(
+        'scroll-to-top',
+        get_template_directory_uri() . '/js/scroll-to-section.js',
+        array(),
+        false,
+        true
+    );
+}
+add_action('wp_enqueue_scripts', 'enqueue_scroll_to_top_script');
+
 
 
 
