@@ -20,7 +20,7 @@ function register_project_post_type() {
         'public'             => true,
         'has_archive'        => false,
         'rewrite'            => array('slug' => 'projects'),
-        'show_in_rest'       => true, // Enables block editor
+        'show_in_rest'       => true,
         'supports'           => array('title', 'editor', 'thumbnail', 'excerpt'),
         'menu_position'      => 5,
         'menu_icon'          => 'dashicons-portfolio',
